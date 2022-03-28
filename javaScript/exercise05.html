@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 자신이 가장 좋아하는 곡을 저장하는 객체를 정의한다.
+        객체는 "가수", "연주시간", "제목"등의 속성을 가진다.
+        객체의 속성을 모두 출력하는 자바스크립트 프로그램을 작성하라
+    -->
+   
+
+    <script>
+      function music(){
+          var music_array = {"가수":"아이유", "연주시간":"04:16", "제목":"좋은날"};
+
+          document.write("제가 좋아하는 가수는 " + music_array["가수"]+ "입니다.<br />");
+          document.write("제가 좋아하는 노래의 제목은 " + music_array["제목"]+ "입니다.<br />");
+          document.write("제가 좋아하는 노래의 제목은 " + music_array["제목"]+ "의 플레이 시간은 "
+                        + music_array["연주시간"] + " 입니다.");
+      }
+
+      music();
+    </script>
+
+</body>
+</html>
