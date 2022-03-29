@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 문자열을 받아서 문자열의 첫 번째 글자를 대문자로 변환하는 strCap(str)를 작성  -->
+   
+    <script>
+        function strCap(str){
+            document.write(str.charAt(0).toUppercase() + str.slice(1));
+        }
+        var textMessage = prompt("변환할 글자를 입력하세요");
+        strCap(textMessage);
+    </script>
+
+</body>
+</html>
