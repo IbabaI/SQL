@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 다음과 같은 순서대로 자바스크립트 프로그램 작성  -->
+    <!-- 터미네이터,트랜스포머,맨오브스틸 -->
+    <!-- 터미네이터,스파이더맨,맨오브스틸 -->
+   
+    <script>
+       var movies = ["터미네이터", "트랜스포머"];
+
+       movies.push("맨오브스틸");
+       document.write(movies + "<br />");
+
+       movies[movies.length - 2] = "스파이더맨"
+       document.write(movies + "<br />");
+
+       lastItem = movies.pop();
+       alert(lastItem);
+
+    </script>
+
+</body>
+</html>
