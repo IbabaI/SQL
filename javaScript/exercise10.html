@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Math.random()을 이용해 배열에서 랜덤하게 하나의 요소를 선택해서 출력하는 프로그램  -->
+   
+   
+    <script>
+       var arr = ["1" , "2" , "3" , "4" , "5" , "6" , "7" , "8" , "9" , "10"];
+
+       minIndexNumber = 0;
+       maxIndexNumber = arr.length -1;
+       randomIndexNumber = Math.floor(Math.random() * maxIndexNumber - minIndexNumber) + minIndexNumber;
+    
+       varueArr = arr[randomIndexNumber];
+       alert(varueArr);
+
+    </script>
+
+</body>
+</html>
