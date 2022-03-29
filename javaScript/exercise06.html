@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 0부터 백만까지 더하는 데 걸리는 시간을 측정하는 프로그램  -->
+   
+    <script>
+        var previousMillisecond = new Date();
+        var addition = 0;
+
+        for(var i = 0; i<= 1000000; i++){
+            addition += i;
+        }
+        var currentMillisecond = new Date();
+        var resultMillisecond = currentMillisecond.getMilliseconds() - previousMillisecond.getMilliseconds();
+        document.write(resultMillisecond + "밀리초가걸렸음!")
+     
+    </script>
+
+</body>
+</html>
