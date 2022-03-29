@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 배열 요소의 값을 받으면 그 요소를 배열에서 찾아서 인덱스를 반환하는 함수 find(arr, value)를 작성  -->
+   
+   
+    <script>
+        function find(arr, value){
+            indexNumber = arr.indexOf(value);
+            document.write(arr + "배열에서" + value + "는 " + indexNumber + "번 인덱스에 있습니다.");
+        }
+
+        var arr = ["hello", 10, 32.5, true];
+
+        find(arr, "hello");
+
+    </script>
+
+</body>
+</html>
