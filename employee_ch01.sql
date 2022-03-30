@@ -113,3 +113,4 @@ select * from employee where job in('CLERK','SALESMAN') and salary not in(1600, 
 -- 커미션이 $500이상인 사원의 이름과 급여 및 커미션
 select ename, salary, commission from employee where commission >= 500;
 
+commit;
