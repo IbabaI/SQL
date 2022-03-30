@@ -150,5 +150,5 @@ select job, dno,
  group by job, dno
  ;
 
-
+commit;
 

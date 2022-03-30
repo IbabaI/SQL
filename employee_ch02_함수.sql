@@ -246,6 +246,6 @@ select eno, ename, job, salary,
 
 
 
-
+commit;
 
 

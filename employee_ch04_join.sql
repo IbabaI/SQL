@@ -141,7 +141,7 @@ where other.hiredate <= mgr.hiredate
   ;
 
 
-
+commit;
 
 
 

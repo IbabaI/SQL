@@ -170,6 +170,6 @@ select * from photo;
 
 
 
-
+commit;
 
 

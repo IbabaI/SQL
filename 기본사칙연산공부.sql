@@ -16,3 +16,5 @@ select ename, sal, job, deptno, nvl(comm,0), sal*12, sal*12+nvl(comm,0) "¿¬ ºÀ" 
 
 --³¯Â¥
 select sysdate from dual;
+
+commit;
